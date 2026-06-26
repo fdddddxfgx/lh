@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>lh的五六七百科</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "微软雅黑", sans-serif;
+        }
+        body {
+            background-color: #73a8f5;
+            max-width: 1080px;
+            margin: 0 auto;
+        }
+        /* 顶部轮播大图 */
+        .banner {
+            width: 100%;
+            height: 420px;
+            background: url("https://p3-flow-image-sign.byteimg.com/tos-cn-i-a9rns2rl98/00340083909c40389d34d42d31240301~tplv-a9rns2rl98-image.image") center/cover no-repeat;
+            position: relative;
+        }
+        .banner .arrow-left {
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #fff;
+            font-size: 30px;
+            cursor: pointer;
+        }
+        .banner .arrow-right {
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #fff;
+            font-size: 30px;
+            cursor: pointer;
+        }
+        .banner-dot {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .banner-dot span {
+            width: 12px;
+            height: 12px;
+            background: #fff;
+            border-radius: 50%;
+            display: inline-block;
+            margin: 0 4px;
+        }
+        /* 导航栏 */
+        nav {
+            background-color: #000;
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+        }
+        .logo {
+            width: 120px;
+            padding: 8px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 22px;
+            font-size: 16px;
+            line-height: 48px;
+        }
+        nav a:hover {
+            color: #73a8f5;
+        }
+        /* 个人简介区域 */
+        .intro-box {
+            padding: 25px 20px;
+            display: flex;
+            gap: 20px;
+        }
+        .intro-img {
+            width: 180px;
+            height: 260px;
+        }
+        .intro-text h2 {
+            color: #0026cc;
+            margin-bottom: 12px;
+            font-size: 22px;
+        }
+        .intro-text p {
+            line-height: 1.7;
+            font-size: 15px;
+            color: #000;
+            text-indent: 2em;
+        }
+        /* 经典封面区域 */
+        .cover-title {
+            padding: 0 20px;
+            font-size: 22px;
+            color: #e6b800;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .cover-list {
+            display: flex;
+            gap: 12px;
+            padding: 0 20px 25px;
+        }
+        .cover-item {
+            flex: 1;
+        }
+        .cover-item img {
+            width: 100%;
+            height: 320px;
+            object-fit: cover;
+        }
+        /* 底部版权 */
+        footer {
+            background-color: #3366cc;
+            text-align: center;
+            padding: 12px;
+            color: #fff;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 顶部轮播 -->
+    <div class="banner">
+        <span class="arrow-left">&lt;</span>
+        <span class="arrow-right">&gt;</span>
+        <div class="banner-dot">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <!-- 导航栏 -->
+    <nav>
+        <img class="logo" src="https://p3-flow-image-sign.byteimg.com/tos-cn-i-a9rns2rl98/91f0990f347c40399900d0d300223000~tplv-a9rns2rl98-image.image" alt="lh的五六七百科">
+        <a href="#">首页</a>
+        <a href="#">海报</a>
+        <a href="#">角色介绍</a>
+        <a href="#">相关视频</a>
+        <a href="#">注册</a>
+        <a href="#">登录</a>
+        <a href="#">留言</a>
+    </nav>
+
+    <!-- 个人简介 -->
+    <div class="intro-box">
+        <img class="intro-img" src="https://p3-flow-image-sign.byteimg.com/tos-cn-i-a9rns2rl98/00340083909c40389d34d42d31240301~tplv-a9rns2rl98-image.image" alt="伍六七单人图">
+        <div class="intro-text">
+            <h2>个人简介~</h2>
+            <p>一个古代宁静的村庄里，有一个孤独的刺客，他叫伍六七。伍六七从小就孤独寂寞，没有朋友，没有亲人，他的父母在他很小的时候就被杀害了，他被迫学习刺杀技能，并成为了一名出色的刺客。虽然他是一名刺客，但他只接受正义的任务，除暴安良，保护弱小。伍六七的生活十分单调，每天他都要进行训练，提高自己的技能。在他没有任务的时候，他就会漫步在村庄里，去远足，去钓鱼，也许这样的生活有些无聊，但是伍六七却很享受这样的生活，因为他可以有时间去思考，去反省，去探索自己内心深处的力量。</p>
+            <br>
+            <p>有一天，伍六七接到了一项任务，他要去拯救一个在城堡里被囚禁的公主。这个任务很危险，因为城堡里有很多危险的机关和士兵。但伍六七并不害怕，他熟练地躲避着机关陷阱，隐蔽地杀死士兵，最终拯救了公主。公主叫楚柔，她一见到伍六七就喜欢上了他，她非常感激伍六七，因为他救了她的性命。楚柔邀请伍六七留在城堡里，并为他准备了一顿丰富的晚宴，表示感谢。伍六七由于性格孤僻，拒绝了楚柔的邀请，说他必须回去继续他的任务。楚柔对伍六七的拒绝感到失落，但还是祝福了他一路顺风。</p>
+        </div>
+    </div>
+
+    <!-- 经典封面 -->
+    <h2 class="cover-title">经典封面~</h2>
+    <div class="cover-list">
+        <div class="cover-item">
+            <img src="https://p3-flow-image-sign.byteimg.com/tos-cn-i-a9rns2rl98/2d9303f00f6844288d3420d024d09244~tplv-a9rns2rl98-image.image" alt="海报1">
+        </div>
+        <div class="cover-item">
+            <img src="https://p3-flow-image-sign.byteimg.com/tos-cn-i-a9rns2rl98/38d392d094804008a222f2f0f3f0339f~tplv-a9rns2rl98-image.image" alt="海报2">
+        </div>
+        <div class="cover-item">
+            <img src="https://p3-flow-image-sign.byteimg.com/tos-cn-i-a9rns2rl98/00340083909c40389d34d42d31240301~tplv-a9rns2rl98-image.image" alt="海报3">
+        </div>
+        <div class="cover-item">
+            <img src="https://p3-flow-image-sign.byteimg.com/tos-cn-i-a9rns2rl98/7720d3f2323e40199200d0d300223000~tplv-a9rns2rl98-image.image" alt="海报4">
+        </div>
+    </div>
+
+    <!-- 底部版权 -->
+    <footer>
+        lh的五六七百科 © 版权所有
+    </footer>
+</body>
+</html>
